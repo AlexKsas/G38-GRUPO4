@@ -1,0 +1,24 @@
+#footer{
+  padding: 5px 5px 5px 5px;
+  font-size: 11px;
+  font-family: Poppins,Helvetica,sans-serif;  
+  color: #5A5A5A;
+  background-color: #EFEFEF;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 6%;
+  bottom: 0;
+  left:0;
+}
+.divcontainer{
+	margin-top:20px;
+}
+.carouselitem{
+	position:relative;
+	height: 28rem!important;	
+}
+
+.musuarios{
+	font-size:1em!important
+}
