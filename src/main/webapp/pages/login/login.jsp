@@ -8,7 +8,6 @@
 <meta charset="utf-8">
 <!-- Tamaño de la pantalla -->
 <meta name="viewport" content="width=device-width">
-<!-- titulo de la pestaña -->
 <title>Tienda J a las 4</title>
 
 <!-- bootstrap-->
@@ -24,8 +23,9 @@
 	integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
 	crossorigin="anonymous">
 
-<!-- Cargando mi hoja de estilo -->
-<link href="style.css" rel="stylesheet" type="text/css" />
+<!-- Hoja de Styles -->
+<link href="../../style/styles.css" rel="stylesheet" type="text/css" />
+<link href="login.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -33,64 +33,64 @@
 	<!-- Navbar-->
 	<nav class="navbar navbar-dark bg-dark">
 		<div class="container-fluid">
-			<a class="navbar-brand links" href="index.html"> <i
-				class="fas fa-fish"></i> Tienda
+			<a class="navbar-brand links" href="../../index.html"> 
+			<i class="fas fa-dolly-flatbed"></i> Tienda J a la 4
 			</a>
+			<a class="navbar-brand links" href="../../index.html"><i class="fas fa-home"></i> Index</a>
 		</div>
 	</nav>
-	
-	<!-- Contenedor de los botones y texto -->
-	<div class="container">
-		<div class="position-absolute top-50 start-50 translate-middle login">
-			<H1 class="titulologin">
-				<i class="fas fa-file-invoice-dollar"></i> Ingreso al sistema
-			</H1>
-			<div class="input-group mb-3">
-				<span class="input-group-text" id="basic-addon1"><i
-					class="fas fa-user-shield"></i></span> <input id="inputuser" type="text"
-					class="form-control" placeholder="Username" aria-label="Username"
-					aria-describedby="basic-addon1">
-			</div>
-
-			<div class="input-group mb-3">
-				<span class="input-group-text" id="basic-addon1"><i
-					class="fas fa-key"></i> </span> <input id="inputpass" type="password"
-					class="form-control" placeholder="Password" aria-label="Password"
-					aria-describedby="basic-addon1">
-			</div>
-			<div style="margin: auto; text-align: center;">
-				<button type="button" class="btn btn-success" onclick="comparar()">
-					<i class="fas fa-sign-in-alt"></i> Iniciar Sesión
-				</button>s
-				<button type="button" class="btn btn-warning">
-					<i class="fas fa-clipboard-list"></i> Registrarse
-				</button>
-				<div id="error" class="alert alert-danger visually-hidden"
-					role="alert">Usuario o contraseña incorrecta!</div>
-
-			</div>
+	<!-- Navbar-->
+	<!-- Navbar-->
+	<nav class="nav-bar">
+		<div class="container-fluid navbarbrand">
+			<a class="navbar-brand links titletie" href="../../index.html"><i
+				class="title"></i>Tienda J a la 4</a>
 		</div>
+	</nav>
+	<!-- Navbar-->	
+	<div>
+	<div class="row divdow">
+	  <div class="col-md-3 col-lg-3 col-sm-2 "></div>
+	  <div class="col-md-6 col-lg-6 col-sm-8  div-form" id="flogin" > 
+	    <form class="formlogin">
+	      <div class="mb-3">
+	        <label for="exampleInputEmail1" class="form-label"> <i class="fa fa-user" aria-hidden="true"></i> Correo Electronico
+	        </label>
+	        <input class="form-control" id="inputuser" aria-describedby="emailHelp">
+	        
+	      </div>
+	      <div class="mb-3">
+	        <label class="form-label" ><i class="fa fa-unlock" aria-hidden="true"></i> Contraseña</label>
+	        <input type="password" id="inputpass" class="form-control" >
+	      </div>
+	      <div class="divbuttons">
+	        <button type="submit" class="btn btn-primary btnprimary btnsignin" id="fentrar" onclick="comparar()"><i class="fa fa-sign-in" aria-hidden="true"></i> Ingresar</button>
+	       <button  class="btn btn-danger btncancelar"><i class="fa fa-times" aria-hidden="true"></i> Registrar</button>
+	        
+	      </div>
+	    </form>
+	    <audio src="ambiente.ogg" autoplay loop></audio>
+	    <div id="divslogin">
+	      <button type="button" class="btn btn-outline-danger">  <i class="fa fa-envelope" aria-hidden="true"></i>  Entrar con Google</button>
+	      <button type="button" class="btn btn-outline-primary"><i class="fa fa-facebook-square" aria-hidden="true"></i>  Entrar con Facebook</button>
+	      <button type="button" class="btn btn-outline-dark"><i class="fa fa-comment" aria-hidden="true"></i>  Entrar con discord</button>
+	    </div>
+	  </div>
+	  <div class="col-md-3 col-lg-3 col-sm-2 "></div>
 	</div>
-
-	<nav class="navbar fixed-bottom navbar-dark bg-dark">
-		<div class="row justify-content-between">
-			<div class="col-4">
-				<a class="navbar-brand links" href="#"><i class="fas fa-code"></i>
-					Equipo 4 <i
-					class="fas fa-code-branch"></i></a>
-			</div>
-			<!--  
-			<div class="col-4">
-				<a class="navbar-brand links" href="https://github.com/roca12"><i
-					class="fab fa-github-square"></i> Github</a> <a
-					class="navbar-brand links" href=""><i class="fab fa-twitter"></i>
-					Twitter</a>
-			</div>
-			-->
-		</div>
-	</nav>
 	
-	<!-- Script que trae la informacion de la api y la compara con las entradas -->
+</div>	
+<!-- Footer -->
+	<footer id="footer">
+	  <a><b>Contáctanos</b></a>
+	  <a>(+57) 319 333333</a>
+	  <p>
+	  <a><b>Créditos</b></a>
+	  <a>login realizado por Equipo4 Grupo38 | Todos los derechos reservadors 2021®</a>   
+	  <a href="https://www.youtube.com/watch?v=DT8FE9_u9MU" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+	</footer>
+<!-- Footer -->
+	
 	<script>
 		function comparar() {
 			//trayendo texto de input de username
@@ -125,11 +125,11 @@
 							//si la clave coincide
 							if (usuarios[i].password === y) {
 								console.log("si");
-								var element = document.getElementById("error");
-								element.classList.add("visually-hidden");
+								//var element = document.getElementById("error");
+								//element.classList.add("visually-hidden");
 								document.getElementById("inputuser").value = "";
 								document.getElementById("inputpass").value = "";
-								window.location.href = "listausuarios.jsp";
+								window.location.href = "../menu/menu.jsp";
 								return;
 							} else {
 								//si la clave NO coincide

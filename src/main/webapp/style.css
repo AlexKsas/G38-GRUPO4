@@ -1,5 +1,3 @@
-
-
 .login{
   padding: 2em;
   border-radius: 10px;
@@ -11,14 +9,6 @@
 .titulologin{
   color: whitesmoke;
   font-size: 40px;
-}
-
-.links{
-  transition: 0.5 all;
-}
-.links:hover{
-  font-weight: bolder;
-  transition: 0.5 all;
 }
 
 .tablax{

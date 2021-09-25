@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+.div-form{
+  background-color:rgba(192,192,192,0.8);
+  border-radius: 5px;
+  
+}
+.formlogin{
+  margin: 15px 10px;
+  text-align: center;
+}
+#divslogin{
+  display: grid;
+}
+#divslogin button{
+  margin: 5px 0;
+}
+
+#flogin{
+  background-color:#f8f8ffdb;
+  
+}
+.btnprimary:hover{
+    color: #fff!important;
+    background-color: #4ba522!important;
+    border-color: #248e599c!important;
+}
+.nav-bar{
+  background-color:#f8f8ffdb!important;
+}
+.navbarbrand{
+  text-align: center!important;
+  font-family: didot;
+  font-size: 2em!important;
+  width: 100%;
+}
+.titletie{
+	color:black;
+}
